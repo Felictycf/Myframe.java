@@ -7,6 +7,7 @@ public class ArrarReverse {
              int temp = array[min];
              array[min]=array[max];
              array[max]=temp;
+             //11111
          }
          for (int i = 0; i < array.length; i++) {
              System.out.println(array[i]);
