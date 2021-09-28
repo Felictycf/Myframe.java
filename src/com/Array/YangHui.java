@@ -19,6 +19,7 @@ package com.Array;
 
 public class YangHui {
     public static void main(String[] args) {
+        //数据类型 数组名 [][] =new 数据类型【】【】
         int array[][] = new int[10][];
         for (int i = 0; i < array.length; i++) {//遍历每个数组中的元素
             /*  这里不能再加int array[i]因为已经被定义了*/

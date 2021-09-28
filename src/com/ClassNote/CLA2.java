@@ -5,6 +5,9 @@ public class CLA2 {
         public  static void main(String[]args){
           //类名 对象名 new 类名（）；
             Auto sb =new Auto();//创建对象
+            /*
+            * 这个里面的值已经赋值了
+            * 也可以在方面赋值效果相同*/
         sb.length=1000;
         sb.height=1500;
         sb.power=5000;
