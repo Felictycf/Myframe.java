@@ -3,7 +3,8 @@ package com.ClassNote;
 public class CLA2 {
 
         public  static void main(String[]args){
-        CLA1.Auto sb =new CLA1.Auto();
+          //类名 对象名 new 类名（）；
+            Auto sb =new Auto();//创建对象
         sb.length=1000;
         sb.height=1500;
         sb.power=5000;
