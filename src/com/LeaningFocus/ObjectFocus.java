@@ -25,6 +25,8 @@ package com.LeaningFocus;
 public class ObjectFocus {
     String name;
     int age ;
+    //访问修饰符 返回值类型 方法名(参数列表){
+    //方法的主体
     public void eat(){
         System.out.println("吃饭饭");
     }

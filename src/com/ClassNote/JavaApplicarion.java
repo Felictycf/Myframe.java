@@ -1,13 +1,14 @@
 package com.ClassNote;
 
 public class JavaApplicarion {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         System.out.println("Hello teather");
-        A a =new A() ;
+        A a = new A();
         a.f1();
     }
+}
 
-    static class A
+     class A
     {
         String s;
 
@@ -16,7 +17,7 @@ public class JavaApplicarion {
             System.out.println("java");
         }
     }
-}
+
 
 
 
