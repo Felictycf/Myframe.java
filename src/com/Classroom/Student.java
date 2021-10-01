@@ -10,6 +10,8 @@ public class Student {
         System.out.println("学生学号:" + "\t"+stu.StuNO);
         System.out.println("学生名字:"+"\t"+stu.name);
         System.out.println("学生年龄:"+"\t"+stu.age);
+        stu.good("nice" );
+        System.out.println(stu.good("nice"));
 
 
     }
