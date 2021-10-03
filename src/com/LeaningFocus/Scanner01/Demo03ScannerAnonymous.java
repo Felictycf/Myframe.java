@@ -20,6 +20,7 @@ public class Demo03ScannerAnonymous {
         methodParam(sc1);
         //使用匿名方法
         methodParam(new Scanner(System.in));
+        // 使用普通方法;
     }
 
 
@@ -28,6 +29,10 @@ public class Demo03ScannerAnonymous {
             System.out.println(num03);
 
 
+        }
+        public static int methodReturn(){
+
+            return 0;
         }
 
 
