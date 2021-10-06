@@ -10,12 +10,12 @@ public class Myframe {
         //创建一个机器人
         Robot robot = new Robot();
         //创建发送的内容
-        String str = "xxs";
+        String str = "大傻逼";
         //将内容放入到系统剪切板对象，ctrl+c
         Clipboard s = Toolkit.getDefaultToolkit().getSystemClipboard();
         StringSelection text = new StringSelection(str);
         s.setContents(text,null);//将容器中内容放到剪切板
-        for(int i = 0;i<1; i++ ) {
+        for(int i = 0;i<100; i++ ) {
             //控制机器人去发送消息
             robot.keyPress(KeyEvent.VK_CONTROL);
             robot.keyPress(KeyEvent.VK_V);
